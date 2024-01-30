@@ -1,0 +1,17 @@
+.social-icons {
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    right: 10vw;
+    width: 80vw;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.social-img {
+    height: calc(16px + 2vmin);
+    pointer-events: none;
+    padding: 1vw;
+  }

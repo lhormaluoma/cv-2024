@@ -3,36 +3,141 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: calc(12px + 2vmin);
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-header {
+  height: 10vh;
+  position: fixed; 
+  top:0;
+  width:80vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
+
+.App-info {
+  height: 110vh;
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-between;
+  padding-top: 50vh;
+  padding-bottom: 80vh;
+}
+
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h3 {
+  font-family: "Montserrat Alternates";
+  font-size: calc(14px + 2vmin);
+  font-weight: 200;
+  margin: 0;
+  padding: 1rem;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat Alternates";
+  font-size: calc(6px + 2vmin);
+  font-weight: 400;
+  margin: 0;
+  color: white;
+}
+
+h1 {
+  font-family: "Lora";
+  font-size: calc(8px + 2vmin);
+  font-weight: 400;
+  font-style: italic;
+  margin: 1rem;
+  color: white;
+}
+
+h4 {
+  font-family: "Karla";
+  font-size: calc(2px + 2vmin);
+  font-weight: 200;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.77);
+  padding: 1rem;
+}
+
+h5 {
+  font-family: "Lora";
+  font-size: calc(20px + 2vmin);
+  font-weight: 400;
+  font-style: italic;
+  margin: 0.2rem;
+  color: white;
+}
+
+p {
+  font-family: "Karla";
+  font-size: calc(4px + 2vmin);
+  font-weight: 200;
+  margin: 0;
+  color: white;
+}
+
+li {
+  font-family: "Karla";
+  font-size: calc(4px + 2vmin);
+  font-weight: 200;
+  margin: 0;
+  color: white;
+}
+
+ul {
+  font-family: "Karla";
+  font-size: calc(4px + 2vmin);
+  font-weight: 200;
+  margin: 1rem;
+  color: white;
+}
+ 
+@media (max-width: 1000px) {
+  .App-content-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+  .App-content-flex > div {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+
+@media (min-width:1000px) {
+  .App-content-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    }
+  .App-content-flex > div {
+    width: 40%;
+    padding: 5%;
   }
 }
