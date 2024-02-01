@@ -13,7 +13,7 @@ function App() {
   const [greetColor, setgreetColor] = useState("white");
   const listenScrollEvent = () => {
     window.scrollY > 80 ? setnavColor("180deg, rgba(16,16,16,1) 0%, rgba(16,16,16,1) 50%, rgba(0,212,255,0) 100%") : setnavColor("transparent,transparent");
-    (window.scrollY > 900 && window.scrollY < 1350) ? setbodyColor("white") : setbodyColor("transparent");
+    (window.scrollY > 600 && window.scrollY < 950) ? setbodyColor("white") : setbodyColor("transparent");
     window.scrollY > 150 ? setgreetColor("transparent") : setgreetColor("white");
   };
   useEffect(() => {

@@ -22,7 +22,7 @@ Takana on killan nettisivujen yll채pit채mist채, kurssiprojekteja ja omia s채채t�
 
 <br/>
 
-Avainsanoja tekniikoista on: Staattiset sivut, React, JS, TypeScript, Wordpress, C, C++, Python, Matlab, Docker, Netlify (Gatsby), Jekyll
+Avainsanoja tekniikoista on: Staattiset sivut, React, JS, TypeScript, Node.js, Wordpress, C, C++, Python, Matlab, Docker, Netlify (Gatsby), Jekyll
 
 </div>
 
