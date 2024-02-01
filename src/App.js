@@ -26,13 +26,9 @@ function App() {
   const transitionTime = "all 0.4s";
 
   return (
+    <div>
     <div className="App">
       <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:150,200,300,400" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,400" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:200,400,200italic,400italic" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:200,400" />
-        <title>Leevi</title>
       </head>
       <header className="App-header" style={{
             background: `linear-gradient(${navColor})`,
@@ -47,7 +43,7 @@ function App() {
       </header>
     <body className="App-body">
     <div className="App-info" >
-      <h1 style={{color: greetColor, transition: transitionTime}}><TypeAnimation
+      <h5 style={{color: greetColor, transition: transitionTime}}><TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'Oon Leevi',
@@ -67,19 +63,24 @@ function App() {
       style={{ fontSize: '2em', display: 'inline-block' }}
       repeat={0}
       cursor={false}
-    /></h1>
+    /></h5>
     <div style={{}}>
       <p style = {{color:bodyColor, transition: transitionTime}}>Oon Leevi. Tekniikan opiskelija ja alan intoilija!
       Mun ykkösjuttuna on yhdistää fyysiset kokemukset koodiin. Sen lisäks harrastan kameroita, musiikkia ja kaikennäköstä urheilua :-)</p>
     </div>
     </div>
     <div style={{alignItems:"center"}}>
-      <h5>Noniin, sit asiaan!</h5>
+      <h1>Noniin, sit asiaan!</h1>
     </div>
-    <div className="App-content-flex" style={{paddingBottom:"100vh"}}>
+    <div className="App-content-flex">
       <Contents />
     </div>
     </body>
+    <div className="App-footer">
+    <p>Tämän sivun tarkoitus on toimia todisteena.</p>
+    <p>Kiitos lukemisesta, tiivistetympi CV löytyy <a href="googledrive.com">täältä!</a></p>
+    </div>
+    </div>
     </div>
   );
 }
