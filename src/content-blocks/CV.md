@@ -14,15 +14,15 @@ Näiden sivujen pointtina on löytää töitä. Sinä, tuleva työnantajani, lue
 
 ## Mitä mä osaan?
 
-Ohjelmointia, signaalinkäsittelyä ja viestintää! Oon koodannu omia projekteja jo koko yliopistoajan, jonka lisäks oon tehny viestinnän töitä ja projekteja.
+Ohjelmointia, signaalinkäsittelyä ja viestintää! Oon koodannu omia projekteja jo koko yliopistoajan, jonka lisäks oon tehny viestinnän töitä ja hankkeita.
 
 <br/>
 
-Takana on killan nettisivujen ylläpitämistä, kurssiprojekteja ja omia vääntöjä. 
+Takana on killan nettisivujen ylläpitämistä, kurssiprojekteja ja omia säätöjä. 
 
 <br/>
 
-Avainsanoja tekniikoista on: Staattiset sivut, React, JS, TypeScript, Wordpress, C, C++, Python, Matlab, Docker
+Avainsanoja tekniikoista on: Staattiset sivut, React, JS, TypeScript, Wordpress, C, C++, Python, Matlab, Docker, Netlify (Gatsby), Jekyll
 
 </div>
 

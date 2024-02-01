@@ -2,7 +2,7 @@
     .social-icons {
         position: fixed;
         bottom: 0;
-        height: 14vh;
+        padding-bottom: 3vh;
         right: 5vw;
         width: 80vw;
         display:flex;
@@ -10,7 +10,7 @@
         flex-direction: column;
     }
     .social-img {
-        height: calc(35px + 3vmin);
+        height: calc(20px + 3vmin);
         pointer-events: none;
         padding: 1vw;
     }

@@ -37,13 +37,16 @@
   align-items: center; 
   justify-content: space-between;
   padding-top: 45vh;
-  padding-bottom: 80vh;
+  padding-bottom: 60vh;
 }
 
 .App-footer {
-  padding-top:5vh;
-  padding-bottom:5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(#10101000,#101010);
 }
 
